@@ -3,7 +3,7 @@ import Styles from "./styles.scss";
 import Header from "@/presentation/components/LoginHeader";
 import {Footer, Input, FormStatus } from "@/presentation/components";
 
-const Login: React.FC = () => {
+const Login : React.FC = () => {
   return (
     <div className={Styles.login}>
       <Header />
